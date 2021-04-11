@@ -8,6 +8,7 @@ public class ParticleSystemPlayer : MonoBehaviour
 
     void PlayParticles()
     {
+        // セットしている Particle の実行
         particles.Play();
     }
 }
